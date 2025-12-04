@@ -15,6 +15,7 @@ public class Testcase_001_Verify_User_Is_Able_to_Add_Address_or_Not extends Base
 	@Test
 	public void addAddress() throws IOException, InterruptedException
 	{
+		System.out.println("Address added");
 		webdriverUtility.javascriptScrollIntoView(driver, homepage.getAddressesBtn());
 		homepage.getAddressesBtn().click();
 			
